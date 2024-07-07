@@ -510,7 +510,7 @@ body {
 
 .hero .imageContainer img {
   /* display: flex; */
-  /* z-index: 5; */
+  z-index: 5;
 }
 
 .hero .imageContainer .coverImage {
@@ -538,11 +538,12 @@ body {
 }
 
 .hero .content img {
-  /* z-index: 10; */
   position: absolute;
+  width: 55%;
   left: 50%;
   top: 25%;
   transform: translate(-50%, -25%);
+  z-index: 10;
 }
 
 .hero .content .description {
@@ -557,4 +558,59 @@ body {
   left: 50%;
   bottom: 18%;
   transform: translate(-50%, -18%);
+}
+
+/* welcome section styles */
+
+.welcomeSection {
+  background-image: url("../assets/images/welcomeBG.png");
+  width: 100%;
+  min-height: 850px;
+  z-index: 20;
+  position: absolute;
+}
+
+.welcomeSection .welcomeContainer {
+  max-width: 1214px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 120px;
+}
+
+.welcomeSection .welcomeContainer .welcomeContent .welcomeMessage {
+  width: 609px;
+  height: 128px;
+  font-family: "Switzer-Variable";
+  font-weight: normal;
+  font-size: 24px;
+  color: #1b3936;
+  margin-top: 30px;
+}
+
+.welcomeSection .welcomeContainer .welcomeCounter {
+  color: #1b3936;
+  font-family: "Switzer-Variable";
+  /* font-size: 16px; */
+}
+
+.welcomeSection .welcomeContainer .welcomeCounter .counterContents {
+  margin-bottom: 100px;
+}
+
+.welcomeSection .welcomeContainer .welcomeCounter .counterContents div {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+  margin-top: -30px;
+}
+
+.welcomeSection .welcomeContainer .welcomeCounter .counterContents > h1 {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.welcomeSection .welcomeContainer .welcomeCounter .counterContents div > h1 {
+  font-family: "Boska-Bold";
+  font-size: 100px;
 }

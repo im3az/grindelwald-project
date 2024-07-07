@@ -1,5 +1,560 @@
+/* Poppins Font */
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+/* Boska font */
+
+@font-face {
+  font-family: "Boska-Extralight";
+  src: url("../assets/fonts/Boska-Extralight.woff2") format("woff2"),
+    url("../assets/fonts/Boska-Extralight.woff") format("woff"),
+    url("../assets/fonts/Boska-Extralight.ttf") format("truetype");
+  font-weight: 200;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Boska-ExtralightItalic";
+  src: url("../assets/fonts/Boska-ExtralightItalic.woff2") format("woff2"),
+    url("../assets/fonts/Boska-ExtralightItalic.woff") format("woff"),
+    url("../assets/fonts/Boska-ExtralightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Boska-Light";
+  src: url("../assets/fonts/Boska-Light.woff2") format("woff2"),
+    url("../assets/fonts/Boska-Light.woff") format("woff"),
+    url("../assets/fonts/Boska-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Boska-LightItalic";
+  src: url("../assets/fonts/Boska-LightItalic.woff2") format("woff2"),
+    url("../assets/fonts/Boska-LightItalic.woff") format("woff"),
+    url("../assets/fonts/Boska-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Boska-Regular";
+  src: url("../assets/fonts/Boska-Regular.woff2") format("woff2"),
+    url("../assets/fonts/Boska-Regular.woff") format("woff"),
+    url("../assets/fonts/Boska-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Boska-Italic";
+  src: url("../assets/fonts/Boska-Italic.woff2") format("woff2"),
+    url("../assets/fonts/Boska-Italic.woff") format("woff"),
+    url("../assets/fonts/Boska-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Boska-Medium";
+  src: url("../assets/fonts/Boska-Medium.woff2") format("woff2"),
+    url("../assets/fonts/Boska-Medium.woff") format("woff"),
+    url("../assets/fonts/Boska-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Boska-MediumItalic";
+  src: url("../assets/fonts/Boska-MediumItalic.woff2") format("woff2"),
+    url("../assets/fonts/Boska-MediumItalic.woff") format("woff"),
+    url("../assets/fonts/Boska-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Boska-Bold";
+  src: url("../assets/fonts/Boska-Bold.woff2") format("woff2"),
+    url("../assets/fonts/Boska-Bold.woff") format("woff"),
+    url("../assets/fonts/Boska-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Boska-BoldItalic";
+  src: url("../assets/fonts/Boska-BoldItalic.woff2") format("woff2"),
+    url("../assets/fonts/Boska-BoldItalic.woff") format("woff"),
+    url("../assets/fonts/Boska-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Boska-Black";
+  src: url("../assets/fonts/Boska-Black.woff2") format("woff2"),
+    url("../assets/fonts/Boska-Black.woff") format("woff"),
+    url("../assets/fonts/Boska-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Boska-BlackItalic";
+  src: url("../assets/fonts/Boska-BlackItalic.woff2") format("woff2"),
+    url("../assets/fonts/Boska-BlackItalic.woff") format("woff"),
+    url("../assets/fonts/Boska-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-display: swap;
+  font-style: italic;
+}
+
+/* AvenirNextLTPro font */
+
+@font-face {
+  font-family: "AvenirNextLTPro-Regular";
+  src: url("../assets/fonts/AvenirNextLTPro-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AvenirNextLTPro-Bold";
+  src: url("../assets/fonts/AvenirNextLTPro-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AvenirNextLTPro-It";
+  src: url("../assets/fonts/AvenirNextLTPro-It.otf") format("opentype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Switzer_Complete fonts */
+
+@font-face {
+  font-family: "Switzer-Variable";
+  src: url("../assets/fonts/Switzer-Variable.woff2") format("woff2"),
+    url("../assets/fonts/Switzer-Variable.woff") format("woff"),
+    url("../assets/fonts/Switzer-Variable.ttf") format("truetype");
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Switzer-VariableItalic";
+  src: url("../assets/fonts/Switzer-VariableItalic.woff2") format("woff2"),
+    url("../assets/fonts/Switzer-VariableItalic.woff") format("woff"),
+    url("../assets/fonts/Switzer-VariableItalic.ttf") format("truetype");
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Switzer-Thin";
+  src: url("../assets/fonts/Switzer-Thin.woff2") format("woff2"),
+    url("../assets/fonts/Switzer-Thin.woff") format("woff"),
+    url("../assets/fonts/Switzer-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Switzer-ThinItalic";
+  src: url("../assets/fonts/Switzer-ThinItalic.woff2") format("woff2"),
+    url("../assets/fonts/Switzer-ThinItalic.woff") format("woff"),
+    url("../assets/fonts/Switzer-ThinItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Switzer-Extralight";
+  src: url("../assets/fonts/Switzer-Extralight.woff2") format("woff2"),
+    url("../assets/fonts/Switzer-Extralight.woff") format("woff"),
+    url("../assets/fonts/Switzer-Extralight.ttf") format("truetype");
+  font-weight: 200;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Switzer-ExtralightItalic";
+  src: url("../assets/fonts/Switzer-ExtralightItalic.woff2") format("woff2"),
+    url("../assets/fonts/Switzer-ExtralightItalic.woff") format("woff"),
+    url("../assets/fonts/Switzer-ExtralightItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Switzer-Light";
+  src: url("../assets/fonts/Switzer-Light.woff2") format("woff2"),
+    url("../assets/fonts/Switzer-Light.woff") format("woff"),
+    url("../assets/fonts/Switzer-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Switzer-LightItalic";
+  src: url("../assets/fonts/Switzer-LightItalic.woff2") format("woff2"),
+    url("../assets/fonts/Switzer-LightItalic.woff") format("woff"),
+    url("../assets/fonts/Switzer-LightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Switzer-Regular";
+  src: url("../assets/fonts/Switzer-Regular.woff2") format("woff2"),
+    url("../assets/fonts/Switzer-Regular.woff") format("woff"),
+    url("../assets/fonts/Switzer-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Switzer-Italic";
+  src: url("../assets/fonts/Switzer-Italic.woff2") format("woff2"),
+    url("../assets/fonts/Switzer-Italic.woff") format("woff"),
+    url("../assets/fonts/Switzer-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Switzer-Medium";
+  src: url("../assets/fonts/Switzer-Medium.woff2") format("woff2"),
+    url("../assets/fonts/Switzer-Medium.woff") format("woff"),
+    url("../assets/fonts/Switzer-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Switzer-MediumItalic";
+  src: url("../assets/fonts/Switzer-MediumItalic.woff2") format("woff2"),
+    url("../assets/fonts/Switzer-MediumItalic.woff") format("woff"),
+    url("../assets/fonts/Switzer-MediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Switzer-Semibold";
+  src: url("../assets/fonts/Switzer-Semibold.woff2") format("woff2"),
+    url("../assets/fonts/Switzer-Semibold.woff") format("woff"),
+    url("../assets/fonts/Switzer-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Switzer-SemiboldItalic";
+  src: url("../assets/fonts/Switzer-SemiboldItalic.woff2") format("woff2"),
+    url("../assets/fonts/Switzer-SemiboldItalic.woff") format("woff"),
+    url("../assets/fonts/Switzer-SemiboldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Switzer-Bold";
+  src: url("../assets/fonts/Switzer-Bold.woff2") format("woff2"),
+    url("../assets/fonts/Switzer-Bold.woff") format("woff"),
+    url("../assets/fonts/Switzer-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Switzer-BoldItalic";
+  src: url("../assets/fonts/Switzer-BoldItalic.woff2") format("woff2"),
+    url("../assets/fonts/Switzer-BoldItalic.woff") format("woff"),
+    url("../assets/fonts/Switzer-BoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Switzer-Extrabold";
+  src: url("../assets/fonts/Switzer-Extrabold.woff2") format("woff2"),
+    url("../assets/fonts/Switzer-Extrabold.woff") format("woff"),
+    url("../assets/fonts/Switzer-Extrabold.ttf") format("truetype");
+  font-weight: 800;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Switzer-ExtraboldItalic";
+  src: url("../assets/fonts/Switzer-ExtraboldItalic.woff2") format("woff2"),
+    url("../assets/fonts/Switzer-ExtraboldItalic.woff") format("woff"),
+    url("../assets/fonts/Switzer-ExtraboldItalic.ttf") format("truetype");
+  font-weight: 800;
+  font-display: swap;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Switzer-Black";
+  src: url("../assets/fonts/Switzer-Black.woff2") format("woff2"),
+    url("../assets/fonts/Switzer-Black.woff") format("woff"),
+    url("../assets/fonts/Switzer-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Switzer-BlackItalic";
+  src: url("../assets/fonts/Switzer-BlackItalic.woff2") format("woff2"),
+    url("../assets/fonts/Switzer-BlackItalic.woff") format("woff"),
+    url("../assets/fonts/Switzer-BlackItalic.ttf") format("truetype");
+  font-weight: 900;
+  font-display: swap;
+  font-style: italic;
+}
+
+/* Basic Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* Body Style */
+body {
+  font-family: "Poppins", Arial, sans-serif;
+}
+
+/* header style */
+.heading {
+  background-image: url("../assets/images/background3.png");
+  padding-top: 30px;
+}
+
+/* nav style */
+.navBar {
+  max-width: 1214px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.navBar img {
+  width: 165px;
+  height: 100%;
+}
+
+.navLinks {
+  display: flex;
+  gap: 40px;
+}
+
+.navLinks a {
+  color: #ffffff;
+  font-family: "Switzer-Variable";
+  font-weight: normal;
+  font-size: 18px;
+}
+
+/* hero styles */
+
+.hero {
+  min-height: 108vh;
+  position: relative;
+}
+
+.hero .imageContainer img {
+  /* display: flex; */
+  /* z-index: 5; */
+}
+
+.hero .imageContainer .coverImage {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  width: 30%;
+  transform: translate(-50%, 0%);
+}
+
+.hero .imageContainer .line {
+  width: 65%;
+  position: absolute;
+  top: -15%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.hero .imageContainer .heroIcon {
+  width: 82px;
+  height: 82px;
+  position: absolute;
+  bottom: 47%;
+  right: 16%;
+}
+
+.hero .content img {
+  /* z-index: 10; */
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, -25%);
+}
+
+.hero .content .description {
+  width: 570px;
+  height: 72px;
+  color: #ffffff;
+  font-family: "Switzer-Variable";
+  font-weight: normal;
+  font-size: 18px;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  bottom: 18%;
+  transform: translate(-50%, -18%);
 }

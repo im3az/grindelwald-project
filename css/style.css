@@ -773,7 +773,11 @@ body {
   font-size: 18px;
 }
 
-.uniqueRoomsContainer .uniqueRoomContents .UniqueRoomCards .uniqueCardTwo >img {
+.uniqueRoomsContainer
+  .uniqueRoomContents
+  .UniqueRoomCards
+  .uniqueCardTwo
+  > img {
   width: 43.37px;
   height: 47.4px;
   position: absolute;
@@ -797,4 +801,82 @@ body {
   position: absolute;
   bottom: 13%;
   left: 10%;
+}
+
+/* sign up section styles */
+
+.signUpContainer {
+  background-image: url("../assets/images/background3.png");
+  width: 100%;
+  min-height: 898px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signUpContainer .signUpContent {
+  background-image: url("../assets/images/signUpImg.png");
+  background-repeat: no-repeat;
+  margin: auto;
+  width: 1194px;
+  height: 704px;
+  text-align: center;
+}
+
+.signUpContainer .signUpContent .signUpTitle {
+  font-family: "Boska-Regular";
+  font-size: 68px;
+  color: #ffffff;
+  width: 603px;
+  height: 176px;
+  margin: auto;
+  margin-top: 150px;
+  text-transform: capitalize;
+}
+
+.signUpContainer .signUpContent .signUpDescription {
+  font-family: "Switzer-Variable";
+  font-size: 18px;
+  color: #ffffff;
+  width: 395px;
+  height: 50px;
+  margin: auto;
+  margin-top: 35px;
+}
+
+.signUpContainer .signUpContent .signUpFormContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 570px;
+  margin: auto;
+  margin-top: 45px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+
+.signUpContainer .signUpContent .signUpFormContainer .emailInput {
+  border: none;
+  padding: 15px;
+  font-size: 16px;
+  outline: none;
+  color: #888;
+}
+
+.signUpContainer .signUpContent .signUpFormContainer .emailInput::placeholder {
+  color: #ccc;
+}
+
+.signUpContainer .signUpContent .signUpFormContainer .submitButton {
+  background-color: #75ff69;
+  border: none;
+  padding: 15px 20px;
+  color: #000;
+  cursor: pointer;
+  font-family: "Switzer-Variable";
+  font-size: 18px;
+  color: #1b3936;
+}
+
+.signUpContainer .signUpContent .signUpFormContainer .submitButton:hover {
+  background-color: #52e052;
 }

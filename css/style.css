@@ -567,13 +567,13 @@ body {
   width: 100%;
   min-height: 850px;
   z-index: 20;
-  position: absolute;
+  position: relative;
 }
 
 .welcomeSection .welcomeContainer {
-  max-width: 1214px;
-  margin: auto;
+  width: 1214px;
   display: flex;
+  margin: auto;
   justify-content: space-between;
   padding-top: 120px;
 }
@@ -613,4 +613,84 @@ body {
 .welcomeSection .welcomeContainer .welcomeCounter .counterContents div > h1 {
   font-family: "Boska-Bold";
   font-size: 100px;
+}
+
+.forestImage {
+  background-image: url("../assets/images/background3.png");
+}
+
+.forestImage img {
+  width: 100%;
+}
+
+/* about us section */
+
+.aboutUsContainer {
+  background-image: url("../assets/images/background3.png");
+  width: 100%;
+  min-height: 1624px;
+  z-index: 30;
+}
+
+.aboutUsContainer .aboutUsContents {
+  /* position: absolute; */
+  text-align: center;
+  width: 100%;
+  position: relative;
+  /* height: 1624px; */
+}
+
+.aboutUsContainer .aboutUsContents .title {
+  font-family: "Switzer-Variable";
+  font-size: 24px;
+  color: #75ff69;
+  margin-bottom: 45px;
+}
+
+.aboutUsContainer .aboutUsContents .aboutContentsDescription {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-top: 200px;
+  /* position: relative; */
+}
+
+.aboutUsContainer .aboutUsContents .aboutContentsDescription .aboutDescription {
+  font-family: "Boska-Regular";
+  font-size: 68px;
+  color: #678784;
+  text-transform: capitalize;
+  width: 1083.29px;
+  height: 880px;
+  margin: auto;
+  z-index: 35;
+}
+
+.aboutUsContainer
+  .aboutUsContents
+  .aboutContentsDescription
+  .aboutDescription
+  .whiteText {
+  color: #ffffff;
+}
+
+.aboutUsContainer .aboutUsContents .img1 {
+  position: absolute;
+  top: 25%;
+  left: 12%;
+}
+.aboutUsContainer .aboutUsContents .img2 {
+  position: absolute;
+  top: 5%;
+  right: 13%;
+}
+.aboutUsContainer .aboutUsContents .img3 {
+  position: absolute;
+  top: 80%;
+  left: 20%;
+}
+.aboutUsContainer .aboutUsContents .img4 {
+  position: absolute;
+  bottom: -32%;
+  right: 21%;
 }

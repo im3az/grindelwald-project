@@ -628,8 +628,9 @@ body {
 .aboutUsContainer {
   background-image: url("../assets/images/background3.png");
   width: 100%;
-  min-height: 1624px;
+  min-height: 1737px;
   z-index: 30;
+  position: relative;
 }
 
 .aboutUsContainer .aboutUsContents {
@@ -693,4 +694,107 @@ body {
   position: absolute;
   bottom: -32%;
   right: 21%;
+}
+
+.aboutUsContainer .intersect {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+/* unique room styles */
+
+.uniqueRoomsContainer {
+  background-image: url("../assets/images/uniqueRoomBG.png");
+  width: 100%;
+  min-height: 1496px;
+}
+
+.uniqueRoomsContainer .uniqueRoomContents {
+  width: 1440px;
+  margin: auto;
+}
+
+.uniqueRoomsContainer .uniqueRoomContents .uniqueRoomsTitle {
+  font-family: "Boska-Regular";
+  font-size: 68px;
+  color: #1b3936;
+  width: 784px;
+  height: 176px;
+  padding-top: 200px;
+  margin-left: 50px;
+}
+
+.uniqueRoomsContainer .uniqueRoomContents .UniqueRoomCards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 300px;
+}
+
+.uniqueRoomsContainer .uniqueRoomContents .UniqueRoomCards .uniqueCardOne {
+  background-image: url("../assets/images/uniqueRoomImg1.png");
+  background-repeat: no-repeat;
+  width: 378px;
+  height: 505.68px;
+  position: relative;
+}
+
+.uniqueRoomsContainer .uniqueRoomContents .UniqueRoomCards .uniqueCardTwo {
+  background-image: url("../assets/images/uniqueRoomImg2.png");
+  background-repeat: no-repeat;
+  width: 582px;
+  height: 778.32px;
+  position: relative;
+}
+
+.uniqueRoomsContainer
+  .uniqueRoomContents
+  .UniqueRoomCards
+  .uniqueCardTwo
+  .title {
+  font-size: 68px;
+  font-weight: 500;
+}
+
+.uniqueRoomsContainer
+  .uniqueRoomContents
+  .UniqueRoomCards
+  .uniqueCardTwo
+  .description {
+  color: #ffffff;
+  width: 381px;
+  height: 48px;
+  position: absolute;
+  bottom: 5%;
+  left: 10%;
+  font-family: "Switzer-Variable";
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.uniqueRoomsContainer .uniqueRoomContents .UniqueRoomCards .uniqueCardTwo >img {
+  width: 43.37px;
+  height: 47.4px;
+  position: absolute;
+  bottom: 15%;
+  right: 10%;
+}
+
+.uniqueRoomsContainer .uniqueRoomContents .UniqueRoomCards .uniqueCardThree {
+  background-image: url("../assets/images/uniqueRoomImg3.png");
+  background-repeat: no-repeat;
+  width: 378px;
+  height: 505.68px;
+  position: relative;
+}
+
+.uniqueRoomsContainer .uniqueRoomContents .UniqueRoomCards .title {
+  font-family: "Boska-Regular";
+  font-size: 32.11px;
+  font-weight: 500;
+  color: #f9f9f9;
+  position: absolute;
+  bottom: 13%;
+  left: 10%;
 }

@@ -880,3 +880,109 @@ body {
 .signUpContainer .signUpContent .signUpFormContainer .submitButton:hover {
   background-color: #52e052;
 }
+
+/* testimonial styles */
+.testimonialContainer {
+  background-image: url("../assets/images/testimonialBG.png");
+  width: 100%;
+  min-height: 1155px;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.testimonialContainer .testimonialContents {
+  padding-top: 100px;
+}
+
+.testimonialContainer .testimonialContents .testimonialMessage {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 1440px;
+}
+
+.testimonialContainer
+  .testimonialContents
+  .testimonialMessage
+  .testimonialTitle {
+  font-family: "Boska-Regular";
+  font-size: 68px;
+  color: #1b3936;
+  width: 766px;
+  height: 176px;
+}
+
+.testimonialContainer
+  .testimonialContents
+  .testimonialMessage
+  .testimonialDescription {
+  font-family: "Switzer-Variable";
+  font-size: 18px;
+  color: #1b3936;
+  width: 379px;
+  height: 48px;
+  padding-top: 108px;
+}
+
+.testimonialContainer .testimonialContents .testimonialCardContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 12%;
+  margin-top: 150px;
+}
+
+.testimonialContainer .testimonialContents .testimonialCardContainer .card {
+  position: relative;
+}
+
+.testimonialContainer
+  .testimonialContents
+  .testimonialCardContainer
+  .card
+  .cardContents {
+  width: 426px;
+  height: 152px;
+  padding: 22px 22.5px;
+  background-color: #ffffff;
+  background: linear-gradient(90deg, #ffffff 0%, #ffffff 100%);
+  overflow: hidden;
+  position: absolute;
+  bottom: 5%;
+  right: 10%;
+
+}
+
+.testimonialContainer
+  .testimonialContents
+  .testimonialCardContainer
+  .card
+  .cardContents
+  h1 {
+  font-family: Switzer-Variable;
+  font-size: 22px;
+  font-weight: 400;
+  margin: 9px 0;
+}
+
+.testimonialContainer
+  .testimonialContents
+  .testimonialCardContainer
+  .card
+  .cardContents
+  p {
+  width: 360px;
+  height: 42px;
+  font-family: Switzer-Variable;
+  font-size: 16px;
+  mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}

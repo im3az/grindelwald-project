@@ -886,9 +886,6 @@ body {
   background-image: url("../assets/images/testimonialBG.png");
   width: 100%;
   min-height: 1155px;
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
 }
 
 .testimonialContainer .testimonialContents {
@@ -911,6 +908,7 @@ body {
   color: #1b3936;
   width: 766px;
   height: 176px;
+  text-transform: capitalize;
 }
 
 .testimonialContainer
@@ -950,7 +948,6 @@ body {
   position: absolute;
   bottom: 5%;
   right: 10%;
-
 }
 
 .testimonialContainer
@@ -986,3 +983,60 @@ body {
     rgba(0, 0, 0, 0) 100%
   );
 }
+
+.testimonialContainer .testimonialContents .testimonialIcon {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+/* contact section */
+
+.contactContainer {
+  background-image: url("../assets/images/footerBG.png");
+  width: 100%;
+  min-height: 532px;
+}
+
+.contactContainer .contactSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 1440px;
+  padding-top: 100px;
+}
+
+.contactContainer .contactSection .contactSectionText h1 {
+  font-family: "Boska-Regular";
+  font-size: 68px;
+  font-weight: 400;
+  color: #1b3936;
+  width: 711px;
+  height: 176px;
+  text-transform: capitalize;
+}
+
+.contactContainer .contactSection .contactSectionText p {
+  width: 208px;
+  font-family: "Switzer-Variable";
+  font-size: 18px;
+}
+
+.contactContainer .contactSection .contactSectionText .btn {
+  font-family: "Switzer-Variable";
+  font-size: 18px;
+  font: 500;
+  background: none;
+  outline: none;
+  box-shadow: none;
+  width: 200px;
+  height: 60px;
+  border: 1px solid #1b3936;
+  border-radius: 50%;
+  margin-top: 50px;
+}
+
+/* footer styles */

@@ -956,7 +956,7 @@ body {
   .card
   .cardContents
   h1 {
-  font-family: Switzer-Variable;
+  font-family: "Switzer-Variable";
   font-size: 22px;
   font-weight: 400;
   margin: 9px 0;
@@ -1040,3 +1040,110 @@ body {
 }
 
 /* footer styles */
+.footerContainer {
+  background-image: url("../assets/images/footerBanner.png");
+  width: 100%;
+  min-height: 320px;
+}
+
+.footerContainer .footerContents {
+  display: flex;
+}
+
+.footerContainer .footerContents .about {
+  background-color: #75ff69;
+  width: 480px;
+  height: 320px;
+  text-align: left;
+  padding: 80px 0;
+  position: relative;
+}
+
+.footerContainer .footerContents .about > svg {
+  transform: rotate(45deg);
+  position: absolute;
+  right: 10%;
+  bottom: 15%;
+}
+.footerContainer .footerContents .about div {
+  width: 164px;
+  margin: auto;
+}
+
+.footerContainer .footerContents .about div h1 {
+  font-family: "Boska-Regular";
+  font-size: 68px;
+  font-weight: 400;
+  color: #1b3936;
+}
+
+.footerContainer .footerContents .about div p {
+  font-family: "Switzer-Variable";
+  font-size: 16px;
+  color: #1b3936;
+}
+
+.footerContainer .footerContents .rooms,
+.contact {
+  display: flex;
+  width: 273.23px;
+  height: 119px;
+  gap: 19px;
+  position: relative;
+}
+
+.footerContainer .footerContents .rightContact {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  gap: 350px;
+  align-items: center;
+}
+
+.footerContainer .footerContents .rooms p,
+.contact > div > p {
+  font-family: "Switzer-Variable";
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.footerContainer .footerContents .rooms > div > h1,
+.contact > div > h1 {
+  font-family: "Boska-Regular";
+  font-size: 68px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.footerContainer .footerContents .rooms svg,
+.contact svg {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(-50%, 0%);
+  transform: rotate(45deg);
+}
+
+/* .footerContainer .footerContents .contact svg{
+  transform: rotate(45deg);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+} */
+
+.footerBottom {
+  background-image: url("../assets/images/footerBG.png");
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  gap: 80px;
+  padding: 20px 0px;
+}
+
+.footerBottom h1 {
+  font-family: "Switzer-Variable";
+  font-size: 18px;
+  font-weight: 400;
+}
